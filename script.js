@@ -12,7 +12,7 @@ askBtn.addEventListener('click', async () => {
     const res = await fetch("https://llm.chutes.ai/v1/chat/completions", {
       method: "POST",
       headers: {
-        "Authorization": "Bearer ВСТАВЬ_СЮДА_СВОЙ_CHUTES_API_TOKEN",
+        "Authorization": "cpk_1e5bfe5afa4e4b519205b2c58517cf57.b4d53b160d0e5b26815f28904cce399f.30c155rlB9Wk4DDLtqKPBmwLSHlWQ6Xg",
         "Content-Type": "application/json"
       },
       body: JSON.stringify({
