@@ -24,8 +24,8 @@ askBtn.addEventListener('click', async () => {
           }
         ],
         stream: false,
-        max_tokens: 512,
-        temperature: 0.5
+        max_tokens: 10000,
+        temperature: 0.7
       })
     });
 
