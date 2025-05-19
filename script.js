@@ -20,12 +20,12 @@ askBtn.addEventListener('click', async () => {
         messages: [
           {
             role: "user",
-            content: content
+            content: "Отвечай кратко и по делу. Не добавляй лишних пояснений. Отвечай на русском языке. Не повторяй вопрос."
           }
         ],
         stream: false,
         max_tokens: 1024,
-        temperature: 0.7
+        temperature: 0.5
       })
     });
 
