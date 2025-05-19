@@ -20,7 +20,7 @@ askBtn.addEventListener('click', async () => {
         messages: [
           {
             role: "user",
-            content: `Только ответ, только на русском: ${content}`
+            content: `Отвечай на русском. Не размышляй. Только ответ: ${content}`
           }
         ],
         stream: false,
